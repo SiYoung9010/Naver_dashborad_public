@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local source data and generated bundles
+input/
+dist/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.pdf
+
+# Real dashboard data should not be committed to the public portfolio repo.
+data/dashboard_data.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
