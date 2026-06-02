@@ -61,12 +61,21 @@
 
 Online Operation & Strategy 직무에서 요구되는 Sell-out KPI 관리, 프로모션 활용도 분석, 광고 효율 관리, 데이터 기반 의사결정 역량을 보여주는 증빙자료로 활용할 수 있습니다.
 
+## Screenshots
+
+> 실제 운영 데이터가 아닌 sanitized sample 화면입니다. 실제 상품, 가격, 고객, 광고, 프로모션 데이터는 포함하지 않습니다.
+
+![Executive Summary](docs/screenshots/01_executive_summary.png)
+![Daily Sales Flow](docs/screenshots/02_daily_sales_flow.png)
+![Ad Type Performance](docs/screenshots/03_ad_type_performance.png)
+
 ## Repository Structure
 
 ```text
 docs/
   evidence_summary.md       # 채용/포트폴리오용 핵심 증빙 요약
   security_publication.md   # 공개 범위와 민감정보 제외 기준
+  screenshots/              # 공개용 샘플 데모 화면 캡처
 data/
   dashboard_data.sample.json # 공개 가능한 예시 데이터 스키마
 scripts/

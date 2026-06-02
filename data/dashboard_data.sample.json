@@ -13,7 +13,7 @@
     "monthly_sales": 125000000,
     "mom_sales_change_rate": 0.18,
     "ad_spend": 8200000,
-    "purchase_completed_roas": 9.39,
+    "purchase_completed_roas": 7.82,
     "new_customers": 1480,
     "conversion_rate": 0.034
   },
@@ -50,7 +50,7 @@
       "purchase_completed_sales": 31500000,
       "clicks": 18400,
       "conversions": 920,
-      "roas": 9.84
+      "roas": 7.64
     },
     {
       "ad_type": "Catalog Ad",
@@ -66,7 +66,7 @@
       "purchase_completed_sales": 27800000,
       "clicks": 15300,
       "conversions": 760,
-      "roas": 9.59
+      "roas": 7.41
     }
   ],
   "official_promotion": {
