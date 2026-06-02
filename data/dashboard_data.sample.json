@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "project": "Naver Promotion Dashboard Portfolio Sample",
+    "period": "2026-05",
+    "notice": "This sample uses anonymized and illustrative values only. It does not include real product, sales, advertising, customer, or promotion data.",
+    "reliability_policy": [
+      "Original source files are not modified.",
+      "Official promotion metrics and daily sales metrics are not force-merged when aggregation standards differ.",
+      "Unavailable metrics are not fabricated."
+    ]
+  },
+  "executive_summary": {
+    "monthly_sales": 125000000,
+    "mom_sales_change_rate": 0.18,
+    "ad_spend": 8200000,
+    "purchase_completed_roas": 9.39,
+    "new_customers": 1480,
+    "conversion_rate": 0.034
+  },
+  "daily_flow": [
+    {
+      "date": "2026-05-01",
+      "sales": 3600000,
+      "ad_spend": 210000,
+      "visits": 9800,
+      "orders": 310,
+      "event_marker": "CRM"
+    },
+    {
+      "date": "2026-05-02",
+      "sales": 4200000,
+      "ad_spend": 260000,
+      "visits": 11200,
+      "orders": 354,
+      "event_marker": "Official Promotion"
+    },
+    {
+      "date": "2026-05-03",
+      "sales": 5100000,
+      "ad_spend": 280000,
+      "visits": 12600,
+      "orders": 402,
+      "event_marker": "LIVE"
+    }
+  ],
+  "ad_type_performance": [
+    {
+      "ad_type": "Search Ad",
+      "spend": 3200000,
+      "purchase_completed_sales": 31500000,
+      "clicks": 18400,
+      "conversions": 920,
+      "roas": 9.84
+    },
+    {
+      "ad_type": "Catalog Ad",
+      "spend": 2100000,
+      "purchase_completed_sales": 17600000,
+      "clicks": 12100,
+      "conversions": 540,
+      "roas": 8.38
+    },
+    {
+      "ad_type": "ADVoost",
+      "spend": 2900000,
+      "purchase_completed_sales": 27800000,
+      "clicks": 15300,
+      "conversions": 760,
+      "roas": 9.59
+    }
+  ],
+  "official_promotion": {
+    "note": "Official promotion performance is tracked separately from total daily sales because aggregation standards may differ.",
+    "items": [
+      {
+        "promotion_group": "Official Deal A",
+        "period": "2026-05-02~2026-05-06",
+        "promotion_sales": 18200000,
+        "orders": 980
+      },
+      {
+        "promotion_group": "Official Deal B",
+        "period": "2026-05-16~2026-05-20",
+        "promotion_sales": 16400000,
+        "orders": 870
+      }
+    ]
+  }
+}
